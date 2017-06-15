@@ -1,0 +1,8 @@
+la_form_homepage:
+    path:     /
+    defaults: { _controller: LAFormBundle:Default:index }
+
+
+la_form_form:
+    path:     /form
+    defaults: { _controller: LAFormBundle:Default:form }

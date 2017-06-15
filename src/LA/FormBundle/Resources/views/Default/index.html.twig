@@ -1,0 +1,10 @@
+{% extends "LAFormBundle::layout.html.twig" %}
+
+{% block title %}{{ parent() }} - Index{% endblock %}
+
+{% block body %}
+    ici viendra mon formulaire
+
+    {{ render (controller('LAFormBundle:Default:form'))}}
+
+{% endblock %}
